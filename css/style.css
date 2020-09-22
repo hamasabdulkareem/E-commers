@@ -591,12 +591,12 @@ width: 100%;
     float: left; 
 }
 .page-footer{
-    background-color: navy;
+    background-color: rgb(143, 70, 139);
     height: 500px;
    
 }
 .footer{
-    background-color: orange;
+   
     float: right;
 }
 @media screen and (max-width: 900px){
