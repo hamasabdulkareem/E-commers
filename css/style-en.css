@@ -848,7 +848,7 @@ width: 100%;
 @media screen and (max-width: 900px){
     .page-footer{
         background-color: black ;
-        height: 750px;
+        height: 800px;
     }
     .footer{
 float: none;

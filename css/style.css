@@ -180,8 +180,8 @@ body{
     padding-right: 15px;   
 }
 .carousel-caption{
-  left: auto;
-    top: 20%; 
+    top: 20%;
+    left: auto;
 }
 .carousel-caption h1,
 .carousel-caption p{
@@ -193,7 +193,7 @@ body{
 }
 .carousel-caption p a{
     
-  margin: auto;
+    margin: auto;
     display: block;
     width: 130px;
     background-color: #6cad22;
@@ -203,7 +203,6 @@ body{
     font-weight: 500;
    
 }
-
 @media screen and (max-width: 900px){
     .header{
         height: 200px;
@@ -212,10 +211,7 @@ body{
         margin-right: 0px;
     }
     .carousel-caption{
-        left: 12%;
-    }
-    .carousel-caption p a{
-        padding: 3px 8px;
+        top: 30%;
     }
     .carousel{
         margin-top: 300px;
@@ -257,16 +253,15 @@ body{
 
 }
 
-}
 @media screen and (max-width: 600px){
     .header{
         height: 300px;
     }
-    .collapse{
-        margin-right: 300px;
-    }
     .carousel-caption{
         top: 15%;
+    }
+    .collapse{
+        margin-right: 0px;
     }
     .carousel{
         margin-top: 380px;
@@ -293,6 +288,7 @@ body{
     }
     .logo{
         text-align:center;
+        
         margin-right: 0px;
         float: none; 
     }
@@ -822,12 +818,12 @@ section {
             margin-top: 0px;
             height: 850px;
         }
+        .p .time{
+            margin-right: 50px; 
+         }
 .slder-box{
     width: 350px;
 }
-.p .time{
-    margin-right: 50px; 
- }
 
 .img-box img{
     
@@ -850,12 +846,11 @@ section {
         margin-top: 170px;
         height: 850px;
     }
-.product{
-    margin-bottom: 450px;
-}
-
 .slder-box{
 width: 350px;
+}
+.product{
+    margin-bottom: 450px;
 }
 .div-pro{
     margin-top: 445px;
@@ -909,7 +904,7 @@ width: 100%;
 @media screen and (max-width: 900px){
     .page-footer{
         background-color: black ;
-        height: 750px;
+        height: 800px;
     }
     .footer{
 float: none;
