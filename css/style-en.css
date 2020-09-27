@@ -142,6 +142,9 @@ body{
     .header{
         height: 200px;
     }
+    .collapse{
+        margin-left: 300px;
+    }
     .carousel-caption{
         top: 25%;
     }
@@ -184,12 +187,13 @@ body{
     }
 
 }
-@media screen and (max-width: 600px){
-    
-}
+
 @media screen and (max-width: 600px){
     .header{
         height: 300px;
+    }
+    .collapse{
+        margin-left: 300px;
     }
     .carousel-caption{
         top: 15%;
@@ -759,7 +763,9 @@ section {
 .slder-box{
     width: 350px;
 }
-
+.p .time{
+    margin-left: 50px; 
+ }
 .img-box img{
     
     height: auto;
@@ -786,6 +792,9 @@ section {
     }
 .slder-box{
 width: 350px;
+}
+.product{
+    margin-bottom: 450px;
 }
 .div-pro{
     margin-top: 445px;
@@ -837,6 +846,10 @@ width: 100%;
     color: rgb(250, 248, 248); 
 }
 @media screen and (max-width: 900px){
+    .page-footer{
+        background-color: black ;
+        height: 750px;
+    }
     .footer{
 float: none;
     }   
