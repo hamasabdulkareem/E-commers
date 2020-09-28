@@ -147,6 +147,7 @@ body{
     }
     .carousel-caption{
         top: 25%;
+        right: auto;
     }
     .carousel{
         margin-top: 300px;
@@ -774,6 +775,9 @@ section {
 }
 }
 @media screen and (max-width: 600px){
+    .pro3{
+        margin-bottom: -9000px;
+    }
     .mor-arw{
         margin-left: 330px;
     }

@@ -216,7 +216,9 @@ body{
     .carousel{
         margin-top: 300px;
     }
- 
+    .carousel-inner{
+        height: 360px;
+    }
     .top-header{
         text-align: center;
         padding: 0;
@@ -267,7 +269,7 @@ body{
         margin-top: 380px;
     }
     .carousel-inner{
-        height: 360px;
+        height: 220px;
     }
     .top-header{
         text-align: center;
@@ -739,7 +741,7 @@ section {
 
 .product{
     padding: 5px;
-   
+
     margin-top: 20px;
     height: 260px;
     
@@ -833,6 +835,12 @@ section {
 }
 }
 @media screen and (max-width: 600px){
+    .pro3{
+        margin-bottom: -9000px;
+    }
+    .mor-arw{
+        margin-right: 330px;
+    }
     .product{
         justify-items: center;
         grid-template-columns: 1fr ;
