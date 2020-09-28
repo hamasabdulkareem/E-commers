@@ -22,6 +22,7 @@ body{
 {
     color: #000;
 }
+
 .header{
     background-color: #8ec5a3;
     height: 110px;
@@ -204,6 +205,9 @@ body{
    
 }
 @media screen and (max-width: 900px){
+    .topfix{
+        margin-top: -4px;
+    }
     .header{
         height: 200px;
     }
