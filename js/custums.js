@@ -6,8 +6,8 @@ function changecss(attr){
     css = "css/style.css";
     document.getElementById('style').href = css;
 } 
-var yemencities="<option value='sana'>sana</option><option value='tiaz'>tiaz</option><option value='Aden'>Aden</option>";
-var egyptcities="<option value='Cairo'>Cairo</option><option value='Alexandria'>Alexandria</option>";
+var yemencities="<option value='sana'>صنعاء</option><option value='tiaz'>تعز</option><option value='Aden'>عدن</option>";
+var egyptcities="<option value='Cairo'>القاهرة</option><option value='Alexandria'>الإسكندرية</option>";
 var cities=document.getElementById("cities") ;
 var country=document.getElementById("Country");
 function changcity()
