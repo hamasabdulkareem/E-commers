@@ -74,6 +74,14 @@ body{
     background-color: rgb(32, 28, 28);
     float: left;
  }
+ .country-select {
+    font-size: 0pc;
+   background-position: center;
+     background-image: url(https://www.countryflags.io/ye/shiny/64.png);
+ }
+ .country-select option{
+    font-size: 1pc;
+ }
 .country-select ,.city-select{
     width: 100px;
     height: 40px;
@@ -82,8 +90,8 @@ body{
 
 }
 .country-select{
-    width: 63px;
-    padding: 2px;
+    width: 60px;
+  
 }
 .search{
     float: right;

@@ -15,10 +15,12 @@ function changcity()
     if(country.value=="yemen") 
     {
         cities.innerHTML=yemencities ;
+        country.style.backgroundImage="url('https://www.countryflags.io/ye/shiny/64.png')";
     }
     else
     {
         cities.innerHTML=egyptcities;
+        country.style.backgroundImage="url('https://www.countryflags.io/eg/shiny/64.png')";
     }
 }
 $(document).ready(function()

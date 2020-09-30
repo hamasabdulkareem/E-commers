@@ -84,76 +84,17 @@ body{
     height: 40px;
     border: none;
     border-radius: 3px;
-
 }
 .country-select{
-    width: 63px;
-    padding: 2px;
-}
-.vodiapicker{
-    display: block; 
-    width: 63px;
-    padding: 2px;
-    height: 40px;
-    border: none;
-    border-radius: 3px;
-
-}
-.country-flag{
-    padding-left: 0px;
-}
-.country-flag img, .btn-select img{
-    width: 64px;
-}
-.country-flag li{
-    margin-top: -8x;
-    list-style: none;
-    padding: 0;
-    margin-bottom: -15px;
-}
-
-.country-flag li span, .btn-select li span{
-    margin-left: 100px;
-}
-.div-country-flag{
-    border: none;
-  width: 60px;
-  height: 100px;
- 
-  z-index: 9999;
-
-}
-.open{
-    display: show !important;
-  }
-  
-  .btn-select{
-   border: none;
+   
     width: 60px;
-    height: 40px;
-    margin-bottom: 5px;
-  background:none;
-  }
-  .btn-select li{
-    list-style: none;
-    float: left;
-    padding-bottom: 0px;
-  }
-  .btn-select:hover li{
-    margin-left: 0px;
-  }
-  .btn-select:focus{
-     outline:none;
-  }
-  .lang-select{
-      z-index: 9999;
-    width: 63px;
-    
-   float: left;
-   margin-right: 500px;
-  }
-
-
+    font-size: 0pc;
+    background-position: center;
+     background-image: url(https://www.countryflags.io/ye/shiny/64.png);
+}
+.country-select option{
+    font-size: 1pc;
+ }
 .search{
     float: left;
     height: 50px;
@@ -180,6 +121,7 @@ body{
     padding-right: 15px;
 }
 .search-btn ,.loo ,.en{
+    
     width: 80px;
     height: 40px;
     border-radius: 3px;
@@ -189,9 +131,11 @@ body{
     
 }
 .loo{
+    
     width: 80px;
 }
 .en{
+    
     width: 50px; 
 }
 .sine{
@@ -852,6 +796,7 @@ section {
     grid-area: product-5;
 }
 @media screen and (max-width: 1334px){
+   
     .title{
         text-align: center;
     }
