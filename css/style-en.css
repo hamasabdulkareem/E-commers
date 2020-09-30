@@ -75,12 +75,12 @@ body{
     float: left;
  }
  .country-select {
-    font-size: 0pc;
+    font-size: 0px;
    background-position: center;
      background-image: url(https://www.countryflags.io/ye/shiny/64.png);
  }
  .country-select option{
-    font-size: 1pc;
+    font-size: 15px;
  }
 .country-select ,.city-select{
     width: 100px;
