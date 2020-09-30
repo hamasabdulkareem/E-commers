@@ -180,7 +180,7 @@ body{
         display: none;
     }
     .f{
-        top: 50%;
+        top: 60%;
         text-align: center;
         margin-left: 0px;
     }
@@ -242,6 +242,9 @@ body{
 }
 
 @media screen and (max-width: 600px){
+    .topfix{
+        margin-top: -10px;
+    }
     .f p,
     .f h2{
         width: 100%;
@@ -254,7 +257,7 @@ body{
     }
     
         .f{
-            top: 55%;
+            top:70%;
             
         }
     .header{
@@ -830,7 +833,7 @@ section {
         margin-left: 800px;
     }
     .f{
-        margin-right: 50px;
+        margin-right: 55px;
     }
     .collapse{
         margin-left: 300px;
