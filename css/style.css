@@ -224,6 +224,9 @@ body{
 
 }
 @media screen and (max-width: 600px){
+    .topfix{
+        margin-top: -10px;
+    }
     .f p,
 .f h2{
     width: 100%;
@@ -236,7 +239,7 @@ body{
 }
 
     .f{
-        top: 55%;
+        top: 70%;
         
     }
     .header{
@@ -796,7 +799,6 @@ section {
     grid-area: product-5;
 }
 @media screen and (max-width: 1334px){
-   
     .title{
         text-align: center;
     }
