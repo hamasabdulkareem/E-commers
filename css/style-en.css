@@ -185,7 +185,7 @@ body{
         margin-left: 0px;
     }
     .topfix{
-        margin-top: -4px;
+        margin-top: -30px;
     }
     .header{
         height: 200px;
@@ -826,6 +826,9 @@ section {
     grid-area: product-5;
 }
 @media screen and (max-width: 1334px){
+    .topfix{
+        margin-top: -4px;
+    }
     .title{
         text-align: center;
     }
