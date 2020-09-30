@@ -223,6 +223,22 @@ body{
     }
 
 }
+.top-right {
+   
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    border: 3px solid rgb(253, 251, 251);
+    border-radius: 50px;
+    width: 36px;
+    height: 36px ;
+    background-color: red;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
 @media screen and (max-width: 600px){
     .topfix{
         margin-top: -10px;
@@ -763,6 +779,7 @@ section {
    text-align: center;
     justify-content: center;
     width: 250px;
+    
    
   
 }
@@ -906,11 +923,13 @@ width: 100%;
 }
 }
 .left{
+    background-color: #516e2f;
     border: none;
     float: left;
-    width: 76px;
+    width: 65px;
 }
 .right{
+    background-color: #d6dad3;
     border: navajowhite;
     width: 163px;
     float: right;
@@ -920,6 +939,7 @@ width: 100%;
     margin-bottom: -10px;
     background-color: #6cad22;
     float: left; 
+    width: 49px;
 }
 .page-footer{
   
